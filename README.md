@@ -25,3 +25,11 @@ $ echo -n "'http://example.com'"|urlencode -n "'"
 
 $ echo -n "'http://example.com'"|urlencode -n "/"
 %27http%3A//example.com%27
+```
+# Installation
+```bash
+git clone https://github.com/DLL00P/urlencode
+cd urlencode
+chmod +x urlencode.py
+sudo mv urlencode.py /usr/bin/urlencode
+```
