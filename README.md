@@ -35,6 +35,6 @@ sudo mv urlencode.py /usr/bin/urlencode
 ```
 
 ## References
-https://github.com/dead10ck/urlencode
+- https://github.com/dead10ck/urlencode
 
-https://manpages.debian.org/stretch/gridsite-clients/urlencode.1.en.html
+- https://manpages.debian.org/stretch/gridsite-clients/urlencode.1.en.html
