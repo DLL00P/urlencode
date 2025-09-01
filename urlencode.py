@@ -21,7 +21,7 @@ def main():
     safe_chars = ""
     args = sys.argv[1:]
 
-    # Revisar opciones -d y -n
+    # Review -d and -n options
     while len(args) > 0:
         if args[0] == "-d":
             decode_mode = True
@@ -35,7 +35,7 @@ def main():
         else:
             break
 
-    # Leer desde pipe si hay
+    # Read from pipe if there is
     if not sys.stdin.isatty():
         text = sys.stdin.read().rstrip("\n")
     elif args:
@@ -44,7 +44,7 @@ def main():
         print("Error: No text provided to encode/decode.")
         sys.exit(1)
 
-    # Ejecutar
+    # Execute
     if decode_mode:
         result = url_decode(text)
     else:
