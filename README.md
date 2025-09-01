@@ -8,6 +8,12 @@ example%201
 
 $ echo -n 'example 2'|urlencode
 example%202
+
+$ for d in {1..30}; do echo -n $d |base64|urlencode ; done
+MQ%3D%3D
+Mg%3D%3D
+Mw%3D%3D
+<SNIP>
 ```
 You can pass `-d` to decode the input.
 ```bash
