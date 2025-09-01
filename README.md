@@ -1,7 +1,7 @@
 # urlencode
 A tool developed in Python to facilitate URL-encoding and decoding of strings  
 ## Usage
-You can provide a string directly as an argument, or pass input through a pipe.
+You can provide a string directly as an argument, or pass input through a pipe, you can even create a loop that concatenates base64.
 ```bash
 $ urlencode 'example 1'
 example%201
